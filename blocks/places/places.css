@@ -1,0 +1,7 @@
+@import url(../places/__list/places__list.css);
+@import url(../place/place.css);
+
+.places {
+    margin: 92px auto 0;
+    max-width: 984px;
+}

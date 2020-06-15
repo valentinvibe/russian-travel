@@ -12,3 +12,23 @@
     flex-wrap: wrap;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 1280px) {
+    .footer {
+      margin: 42px 48px 0;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .footer {
+      margin: 48px 24px 0;
+    }
+  }
+  
+   @media screen and (max-width: 560px) {
+    .footer {
+      flex-direction: column;
+      margin: 64px 16px auto 24px;
+      align-items: flex-start;
+    }
+  }

@@ -11,9 +11,26 @@
 
 .footer__link:last-child {
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 .footer__link:hover{
     opacity: .7;
     transition: .3s linear;
+  }
+
+  @media screen and (max-width: 560px) {
+    .footer__link {
+      margin: 0 auto 26px 0;
+      font-size: 20px;
+      line-height: 2;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .footer__link {
+      margin: 0 auto 32px 0;
+      font-size: 24px;
+      line-height: 1;
+    }
   }

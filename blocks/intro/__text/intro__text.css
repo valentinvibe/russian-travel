@@ -5,3 +5,28 @@
     line-height: 1.62;
     margin: 40px 30% 0 0;
 }
+
+@media screen and (max-width: 1150px) {
+    .intro__text {
+      margin: 40px 29% 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .intro__text {
+      margin: 40px 40px 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 780px) {
+    .intro__text {
+      margin: 40px 24px 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .intro__text {
+      margin: 40px 0 0 0;
+      line-height: 1.68;
+    }
+  }

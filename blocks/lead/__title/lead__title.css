@@ -7,3 +7,28 @@
     margin: auto;
     
 }
+
+
+@media screen and (max-width: 740px) {
+    .lead__title {
+    margin: 0 32px;
+    font-size: 72px;
+    line-height: 1;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .lead__title {
+    margin: 0 24px;
+    font-size: 54px;
+    line-height: 1;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .lead__title {
+    margin: 0 16px;
+    font-size: 40px;
+    line-height: 1.1;
+    }
+  }

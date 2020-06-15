@@ -9,5 +9,16 @@
     max-width: 984px;
     margin: 54px auto 0;
     padding: 0; 
-    /* border: 1px solid red; */
 }
+
+@media screen and (max-width: 1150px) {
+    .lead {
+      margin: 56px 48px 0 48px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .lead {
+      margin: 48px 0 0;
+    }
+  }

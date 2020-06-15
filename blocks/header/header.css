@@ -2,11 +2,37 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang/header__lang.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-    max-width: 1184px;
-    margin: 28px auto 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1290px) {
+  .header {
+    margin: 0 48px;
   }
+}
+
+@media screen and (max-width: 950px) {
+  .header {
+     margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header {
+     margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+     margin: 0 16px;
+     padding-top: 16px;
+  }
+}

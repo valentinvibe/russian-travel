@@ -1,7 +1,6 @@
 .lead__caption {
     max-width: 984px;
     text-align: left;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -10,3 +9,21 @@
     text-transform: uppercase;
     margin: 8px auto 0;
 }
+
+@media screen and (max-width: 1150px) {
+    .lead__caption {
+      margin: 8px auto 0;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .lead__caption {
+      margin: 8px auto 24px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .lead__caption {
+      margin: 8px auto 16px;
+    }
+  }

@@ -29,3 +29,26 @@
 .cover__overlay:hover::after {
     opacity: .7;
 }
+
+@media screen and (max-width: 1150px) {
+    .cover__overlay {
+     padding: 19% 0;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .cover__overlay {
+     padding: 14% 0;
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .cover__overlay {
+     padding: 11% 0;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .cover__overlay {
+      padding: 13% 0;
+    }

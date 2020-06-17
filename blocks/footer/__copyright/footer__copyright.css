@@ -3,7 +3,8 @@
     color: #fff;
     font-size: 14px;
     line-height: 1.14;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 560px) {

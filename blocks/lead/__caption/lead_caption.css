@@ -10,11 +10,11 @@
     margin: 8px auto 0;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .lead__caption {
       margin: 8px auto 0;
     }
-  }
+  } */
   
   @media screen and (max-width: 768px) {
     .lead__caption {
@@ -26,6 +26,6 @@
     .lead__caption {
       margin-top: 8px;
       margin-left: 16px;
-      margin-bottom: 0;
+      /* margin-bottom: 0; */
     }
   }

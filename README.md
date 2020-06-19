@@ -21,6 +21,6 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 
-*[Ссылка на проект GitHub](https://valentinvibe.github.io/russian-travel/)
+[Ссылка на проект GitHub](https://valentinvibe.github.io/russian-travel/)
 
 Удачи!

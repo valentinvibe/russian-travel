@@ -1,15 +1,30 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__background/cover__background.css);
+
 
   .cover {
     max-width: 1184px;
     margin: 92px auto 0;
     }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .cover {
      width: 100%;
     }
+} */
+
+
+@media screen and (max-width: 1150px) {
+  .cover {
+    margin: 92px 0 0;
+    max-width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin-top: 64px;
+  }
 }

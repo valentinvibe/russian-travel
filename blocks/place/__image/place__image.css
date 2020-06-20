@@ -2,3 +2,12 @@
     grid-area: image;
     max-width: 100%; 
 }
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}

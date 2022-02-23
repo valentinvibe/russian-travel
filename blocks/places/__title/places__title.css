@@ -1,3 +1,8 @@
 .places__title {
-
+  grid-area: title;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 106%;
+  margin: 0;
+  padding: 0;
 }

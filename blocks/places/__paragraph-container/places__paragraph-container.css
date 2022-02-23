@@ -1,0 +1,5 @@
+.places__paragraph-container {
+  grid-area: paragraph;
+  margin: 0;
+  padding: 0;
+}

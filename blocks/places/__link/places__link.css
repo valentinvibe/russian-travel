@@ -1,3 +1,11 @@
 .places__link {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  opacity: 1;
+  transition: opacity .4s linear;
+}
 
+.places__link:hover {
+  opacity: .7;
 }

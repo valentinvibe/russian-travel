@@ -1,20 +1,4 @@
 .cover {
   max-width: 1184px;
-  background-color: rgba(42, 44, 47,.3);
-  min-height: 740px;
-  background-size: cover;
-  background-position: center;
   margin: 0 auto 92px;
-}
-
-.cover__overlay {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(129, 42, 16);
-  background-image: url(../../images/cover-trains.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  text-decoration: none;
-  color: #fff;
-  align-items: center;
 }

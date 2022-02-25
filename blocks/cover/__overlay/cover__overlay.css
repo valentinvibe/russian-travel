@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     background-image: url(../../../images/cover-trains.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    
     text-decoration: none;
     color: #fff;
     align-items: center;
@@ -19,9 +20,20 @@
     right: 0;
     background-color: rgb(42,44,47);
     opacity: .3;
+    transition: opacity .4s linear;
   }
 
   .cover__overlay:hover::before {
       opacity: .8;
   }
   
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .cover__overlay {
+      
+      width: 100%;
+      /* padding-bottom:100%; */
+      
+      
+      
+    }
+  }

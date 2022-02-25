@@ -5,3 +5,11 @@
   letter-spacing: 0em;
   margin: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+}

@@ -14,3 +14,10 @@
     margin-bottom: 64px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}

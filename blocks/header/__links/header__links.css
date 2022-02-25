@@ -7,6 +7,5 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__links {
     align-items: flex-end;
-    padding-bottom: 6px;
   }
 }

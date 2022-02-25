@@ -17,3 +17,9 @@
   margin: 33px 16px 16px;
  }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__title {
+   margin: 115px 104px 32px;
+  }
+ }

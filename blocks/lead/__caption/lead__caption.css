@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     margin: 8px auto auto 16px;
   }

@@ -1,13 +1,11 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(2, min-content);
   grid-template-areas:
     "title website"
     "image paragraph";
   row-gap: 48px;
   column-gap: 40px;
-  align-content: start;
 }
 
 @media screen and (max-width: 767px) {
@@ -25,5 +23,12 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+   column-gap: 32px;
+   grid-template-columns: 440px 1fr;
   }
 }

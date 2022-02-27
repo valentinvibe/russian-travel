@@ -18,3 +18,9 @@
        url('./Inter-Bold.woff') format('woff');
   font-weight: 700;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./Inter-Black.ttf) format('truetype');
+  font-weight: 900;
+}

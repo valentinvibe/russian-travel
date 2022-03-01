@@ -4,7 +4,7 @@
   font-weight: 400;
   line-height: 22px;
   text-align: center;
-  width: 360px;
+  max-width: 360px;
   z-index: 1;
 }
 
@@ -12,7 +12,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 33px;
+    margin: 0 16px 33px;
   }
 }
 
